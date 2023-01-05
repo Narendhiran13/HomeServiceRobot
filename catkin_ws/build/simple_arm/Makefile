@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+simple_arm/CMakeFiles/look_away_pubsub.dir/rule:
+	cd /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 simple_arm/CMakeFiles/look_away_pubsub.dir/rule
+.PHONY : simple_arm/CMakeFiles/look_away_pubsub.dir/rule
+
+# Convenience name for target.
+look_away_pubsub: simple_arm/CMakeFiles/look_away_pubsub.dir/rule
+
+.PHONY : look_away_pubsub
+
+# fast build rule for target.
+look_away_pubsub/fast:
+	cd /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build && $(MAKE) -f simple_arm/CMakeFiles/look_away_pubsub.dir/build.make simple_arm/CMakeFiles/look_away_pubsub.dir/build
+.PHONY : look_away_pubsub/fast
+
+# Convenience name for target.
 simple_arm/CMakeFiles/simple_mover.dir/rule:
 	cd /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 simple_arm/CMakeFiles/simple_mover.dir/rule
 .PHONY : simple_arm/CMakeFiles/simple_mover.dir/rule
@@ -746,6 +761,33 @@ src/look_away.cpp.s:
 	cd /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build && $(MAKE) -f simple_arm/CMakeFiles/look_away.dir/build.make simple_arm/CMakeFiles/look_away.dir/src/look_away.cpp.s
 .PHONY : src/look_away.cpp.s
 
+src/look_away_pubsub.o: src/look_away_pubsub.cpp.o
+
+.PHONY : src/look_away_pubsub.o
+
+# target to build an object file
+src/look_away_pubsub.cpp.o:
+	cd /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build && $(MAKE) -f simple_arm/CMakeFiles/look_away_pubsub.dir/build.make simple_arm/CMakeFiles/look_away_pubsub.dir/src/look_away_pubsub.cpp.o
+.PHONY : src/look_away_pubsub.cpp.o
+
+src/look_away_pubsub.i: src/look_away_pubsub.cpp.i
+
+.PHONY : src/look_away_pubsub.i
+
+# target to preprocess a source file
+src/look_away_pubsub.cpp.i:
+	cd /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build && $(MAKE) -f simple_arm/CMakeFiles/look_away_pubsub.dir/build.make simple_arm/CMakeFiles/look_away_pubsub.dir/src/look_away_pubsub.cpp.i
+.PHONY : src/look_away_pubsub.cpp.i
+
+src/look_away_pubsub.s: src/look_away_pubsub.cpp.s
+
+.PHONY : src/look_away_pubsub.s
+
+# target to generate assembly for a file
+src/look_away_pubsub.cpp.s:
+	cd /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build && $(MAKE) -f simple_arm/CMakeFiles/look_away_pubsub.dir/build.make simple_arm/CMakeFiles/look_away_pubsub.dir/src/look_away_pubsub.cpp.s
+.PHONY : src/look_away_pubsub.cpp.s
+
 src/simple_mover.o: src/simple_mover.cpp.o
 
 .PHONY : src/simple_mover.o
@@ -782,6 +824,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... look_away_pubsub"
 	@echo "... simple_mover"
 	@echo "... simple_arm_genpy"
 	@echo "... simple_arm_generate_messages_py"
@@ -827,6 +870,9 @@ help:
 	@echo "... src/look_away.o"
 	@echo "... src/look_away.i"
 	@echo "... src/look_away.s"
+	@echo "... src/look_away_pubsub.o"
+	@echo "... src/look_away_pubsub.i"
+	@echo "... src/look_away_pubsub.s"
 	@echo "... src/simple_mover.o"
 	@echo "... src/simple_mover.i"
 	@echo "... src/simple_mover.s"

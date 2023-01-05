@@ -285,6 +285,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named look_away_pubsub
+
+# Build rule for target.
+look_away_pubsub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 look_away_pubsub
+.PHONY : look_away_pubsub
+
+# fast build rule for target.
+look_away_pubsub/fast:
+	$(MAKE) -f simple_arm/CMakeFiles/look_away_pubsub.dir/build.make simple_arm/CMakeFiles/look_away_pubsub.dir/build
+.PHONY : look_away_pubsub/fast
+
+#=============================================================================
 # Target rules for targets named simple_mover
 
 # Build rule for target.
@@ -761,6 +774,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... look_away_pubsub"
 	@echo "... simple_mover"
 	@echo "... simple_arm_genpy"
 	@echo "... simple_arm_generate_messages_py"

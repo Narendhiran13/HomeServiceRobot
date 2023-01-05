@@ -38,6 +38,7 @@
 /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build/simple_arm/CMakeFiles/install/strip.dir
 /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build/simple_arm/CMakeFiles/list_install_components.dir
 /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build/simple_arm/CMakeFiles/edit_cache.dir
+/home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build/simple_arm/CMakeFiles/look_away_pubsub.dir
 /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build/simple_arm/CMakeFiles/simple_mover.dir
 /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build/simple_arm/CMakeFiles/simple_arm_genpy.dir
 /home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_ws/build/simple_arm/CMakeFiles/simple_arm_generate_messages_py.dir
