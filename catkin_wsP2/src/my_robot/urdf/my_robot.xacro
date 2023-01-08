@@ -129,7 +129,7 @@
     <collision name = 'left_wheel_collision'>
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
       <geometry>
-        <cylinder length="0.0499" radius="0.099" />
+        <cylinder length="0.05" radius="0.1" />
       </geometry>
     </collision>
     
@@ -151,7 +151,7 @@
     <collision name = 'right_wheel_collision'>
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
       <geometry>
-        <cylinder length="0.0499" radius="0.099" />
+        <cylinder length="0.05" radius="0.1" />
       </geometry>
     </collision>
     
