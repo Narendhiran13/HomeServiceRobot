@@ -3,6 +3,6 @@ prefix=/home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_wsP2/devel
 Name: ball_chaser
 Description: Description of ball_chaser
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/thomasfriends/Documents/GitHub/HomeServiceRobot/catkin_wsP2/devel/include
 Libs: -L${prefix}/lib 
 Requires: 
